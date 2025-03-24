@@ -155,6 +155,7 @@ function init() {
   setup();
   sampleRUM.collectBaseURL = window.origin;
   sampleRUM();
+  console.log("test-services");
 }
 
 /**
